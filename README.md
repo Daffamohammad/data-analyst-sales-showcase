@@ -43,6 +43,28 @@ Hasil di bawah berasal dari eksekusi notebook dengan dataset sumber:
 - Komposisi penjualan menurut kelompok usia dan gender.
 - Heatmap kontribusi produk × lokasi.
 
+## Preview visual
+
+Figur berikut diekspor dari output notebook yang sudah dieksekusi. Nilai menggunakan unit dataset karena sumber tidak mencantumkan mata uang.
+
+### Snapshot performa
+
+![Snapshot KPI performa penjualan](assets/kpi_snapshot.png)
+
+### Kontribusi produk
+
+![Kontribusi penjualan menurut produk](assets/product_contribution.png)
+
+### Tren bulanan dan return rate
+
+![Tren penjualan bulanan dan return rate](assets/monthly_trend.png)
+
+> Catatan: Februari 2023 hanya mencakup data sampai 16 Februari sehingga merupakan periode parsial.
+
+### Performa menurut lokasi
+
+![Penjualan bersih menurut lokasi customer](assets/location_sales.png)
+
 ## Cara menjalankan
 
 1. Install dependency:
@@ -80,7 +102,12 @@ Hasil di bawah berasal dari eksekusi notebook dengan dataset sumber:
 ├── KP_01_KP_02_V2_showcase_revised.ipynb
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── assets/
+    ├── kpi_snapshot.png
+    ├── product_contribution.png
+    ├── monthly_trend.png
+    └── location_sales.png
 ```
 
 ## Batasan interpretasi
