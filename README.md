@@ -1,10 +1,10 @@
-# Data Analyst Sales Showcase
+# Sales Performance Analysis
 
-Notebook showcase untuk menganalisis performa penjualan berdasarkan produk, waktu, lokasi, dan segmen pelanggan.
+A reproducible Jupyter analysis of sales by product, time, location, and customer segment. The notebook emphasizes clean joins, careful data preparation, and clear visual storytelling. Monetary values are reported in dataset units because the source does not specify a currency.
 
-## Ringkasan
+## Project overview
 
-Notebook [`KP_01_KP_02_V2_showcase_revised.ipynb`](KP_01_KP_02_V2_showcase_revised.ipynb) merupakan revisi dari notebook coursework awal. Fokus revisinya adalah membuat analisis lebih reproducible, menjaga kualitas join dan cleaning, serta menyajikan visual yang lebih siap dibagikan.
+The [`KP_01_KP_02_V2_showcase_revised.ipynb`](KP_01_KP_02_V2_showcase_revised.ipynb) notebook revises the original coursework into a reproducible, shareable analysis with explicit data-cleaning and join-quality checks.
 
 ### Pertanyaan analisis
 
